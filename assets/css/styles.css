@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #fff;
+}
+
+.narrow-width {
+	max-width: 900px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.navbar .nav {
+	list-style-type: none;
+	padding: 10px 0;
+}
+.navbar .nav a,
+.navbar .nav a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.section {
+	margin: 0 auto;
+	display: block;
+	width: inherit;
+	margin-bottom: 10px;
+}
+
+/* contact section */
+.contact-panel {
+	background: url(../svg/10.svg) no-repeat;
+	background-size: 100%;
+	background-position-y: -280px;
+	width: inherit;
+}
+/* overalay */
+.contact-overlay {
+	background: rgba(0, 0, 0, 0.7);
+	padding: 50px;
+}
+.contact-overlay .title {
+	background-color: #FDC689;
+	padding: 10px;
+	border-radius: 7px;
+	text-align: center;
+}
+.contact-overlay h3 {
+	font-size: 2em;
+	margin: 0;
+}
+.contact-overlay .motto {
+	margin: 7px 0;
+}
+/* .contact-overlay .line1,
+.contact-overlay .line2 {
+	display: block;
+} */
+
+.contact-overlay .line2 {
+	text-indent: 60px;
+}
+/* form */
+.contact-form {
+	margin-left: -120px;
+	color: #FDC689
+}
+.contact-form table {
+	width: 500px;
+	margin: 20px auto;
+}
+.contact-form table th {
+	text-align: right;
+	width: 120px;
+	padding: 10px 20px;
+	vertical-align: top;
+	text-transform: uppercase;
+}
+.contact-form .input {
+	width: 100%;
+	line-height: 30px;
+	background: rgba(255,255,255,0.8);
+    border: none;
+}
+.contact-form button {
+	background: #fdc689;
+	padding: 7px 10px;
+	border-radius: 7px;
+	border: none;
+	float: right;
+}
