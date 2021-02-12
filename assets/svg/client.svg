@@ -4,6 +4,11 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="595.276px" height="841.89px" viewBox="0 0 595.276 841.89" enable-background="new 0 0 595.276 841.89"
 	 xml:space="preserve">
+<defs>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Comfortaa');
+	</style>
+</defs>
 <g>
 	<defs>
 		<rect id="SVGID_1_" width="595.276" height="841.89"/>
@@ -691,7 +696,7 @@
 			127.894,69.123 		"/>
 	</g>
 	<g clip-path="url(#SVGID_2_)">
-		<text transform="matrix(1 0 0 1 205.8594 52.0444)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="24">E</tspan><tspan x="11.088" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="24" letter-spacing="-1">x</tspan><tspan x="21.023" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="24">calibur Client</tspan></text>
+		<text transform="matrix(1 0 0 1 205.8594 52.0444)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="24">E</tspan><tspan x="15.888" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="24" letter-spacing="-1">x</tspan><tspan x="27.863" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="24">calibur Client</tspan></text>
 	</g>
 	<g clip-path="url(#SVGID_2_)">
 		<defs>
@@ -704,7 +709,7 @@
 			<line clip-path="url(#SVGID_18_)" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="246.766" y1="87.377" x2="364.197" y2="87.377"/>
 	</g>
 	<g clip-path="url(#SVGID_2_)">
-		<text transform="matrix(1 0 0 1 183.3042 113.2217)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">P</tspan><tspan x="10.773" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">ass</tspan><tspan x="37.527" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">w</tspan><tspan x="52.583" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">o</tspan><tspan x="64.112" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">r</tspan><tspan x="70.139" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">d</tspan><tspan x="81.983" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">l</tspan><tspan x="86.309" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">ess OS </tspan><tspan x="147.187" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">l</tspan><tspan x="151.534" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">ogin</tspan></text>
+		<text transform="matrix(1 0 0 1 183.3042 113.2217)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">P</tspan><tspan x="12.453" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">ass</tspan><tspan x="49.307" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">w</tspan><tspan x="64.448" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">o</tspan><tspan x="78.665" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">r</tspan><tspan x="87.442" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">d</tspan><tspan x="102.289" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">l</tspan><tspan x="107.581" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">ess OS </tspan><tspan x="188.661" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">l</tspan><tspan x="193.974" y="0" fill="#FFFFFF" font-family="'Comfortaa-Regular'" font-size="21">ogin</tspan></text>
 	</g>
 	<g clip-path="url(#SVGID_2_)">
 		<defs>
@@ -731,7 +736,7 @@
 			C550.653,235.325,546.367,239.612,541.079,239.612z"/>
 	</g>
 	<g clip-path="url(#SVGID_2_)">
-		<text transform="matrix(1 0 0 1 381.5918 220.3247)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11">SSO using </tspan><tspan x="48.333" y="0" font-family="'Comfortaa-Regular'" font-size="11">K</tspan><tspan x="53.646" y="0" font-family="'Comfortaa-Regular'" font-size="11">erbe</tspan><tspan x="74.523" y="0" font-family="'Comfortaa-Regular'" font-size="11">r</tspan><tspan x="77.691" y="0" font-family="'Comfortaa-Regular'" font-size="11">os tic</tspan><tspan x="101.562" y="0" font-family="'Comfortaa-Regular'" font-size="11">k</tspan><tspan x="106.182" y="0" font-family="'Comfortaa-Regular'" font-size="11">ets.</tspan></text>
+		<text transform="matrix(1 0 0 1 381.5918 220.3247)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11">SSO using </tspan><tspan x="62.589" y="0" font-family="'Comfortaa-Regular'" font-size="11">K</tspan><tspan x="69.145" y="0" font-family="'Comfortaa-Regular'" font-size="11">erbe</tspan><tspan x="95.468" y="0" font-family="'Comfortaa-Regular'" font-size="11">r</tspan><tspan x="100.076" y="0" font-family="'Comfortaa-Regular'" font-size="11">os tic</tspan><tspan x="130.832" y="0" font-family="'Comfortaa-Regular'" font-size="11">k</tspan><tspan x="136.585" y="0" font-family="'Comfortaa-Regular'" font-size="11">ets.</tspan></text>
 	</g>
 	<g clip-path="url(#SVGID_2_)">
 		<defs>
@@ -758,7 +763,7 @@
 			C586.838,692.588,582.552,696.875,577.264,696.875z"/>
 	</g>
 	<g clip-path="url(#SVGID_2_)">
-		<text transform="matrix(1 0 0 1 428.4639 677.7095)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11" letter-spacing="-1">W</tspan><tspan x="8.106" y="0" font-family="'Comfortaa-Regular'" font-size="11">eb SSO on any b</tspan><tspan x="82.619" y="0" font-family="'Comfortaa-Regular'" font-size="11">r</tspan><tspan x="85.787" y="0" font-family="'Comfortaa-Regular'" font-size="11">o</tspan><tspan x="91.508" y="0" font-family="'Comfortaa-Regular'" font-size="11">wse</tspan><tspan x="109.471" y="0" font-family="'Comfortaa-Regular'" font-size="11" letter-spacing="-1">r</tspan><tspan x="111.638" y="0" font-family="'Comfortaa-Regular'" font-size="11">.</tspan></text>
+		<text transform="matrix(1 0 0 1 428.4639 677.7095)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11" letter-spacing="-1">W</tspan><tspan x="9.119" y="0" font-family="'Comfortaa-Regular'" font-size="11">eb SSO on any b</tspan><tspan x="104.828" y="0" font-family="'Comfortaa-Regular'" font-size="11">r</tspan><tspan x="109.438" y="0" font-family="'Comfortaa-Regular'" font-size="11">o</tspan><tspan x="116.565" y="0" font-family="'Comfortaa-Regular'" font-size="11">wse</tspan><tspan x="137.388" y="0" font-family="'Comfortaa-Regular'" font-size="11" letter-spacing="-1">r</tspan><tspan x="140.996" y="0" font-family="'Comfortaa-Regular'" font-size="11">.</tspan></text>
 	</g>
 	<g clip-path="url(#SVGID_2_)">
 		<defs>
@@ -785,7 +790,7 @@
 			C185.979,753.253,181.692,757.54,176.404,757.54z"/>
 	</g>
 	<g clip-path="url(#SVGID_2_)">
-		<text transform="matrix(1 0 0 1 31.8315 738.3735)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11">Local / </tspan><tspan x="32.493" y="0" font-family="'Comfortaa-Regular'" font-size="11">r</tspan><tspan x="35.661" y="0" font-family="'Comfortaa-Regular'" font-size="11">emote (RDP) </tspan><tspan x="95.544" y="0" font-family="'Comfortaa-Regular'" font-size="11">l</tspan><tspan x="97.821" y="0" font-family="'Comfortaa-Regular'" font-size="11">ogin.</tspan></text>
+		<text transform="matrix(1 0 0 1 31.8315 738.3735)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11">Local / </tspan><tspan x="43.12" y="0" font-family="'Comfortaa-Regular'" font-size="11">r</tspan><tspan x="47.729" y="0" font-family="'Comfortaa-Regular'" font-size="11">emote (RDP) </tspan><tspan x="117.6" y="0" font-family="'Comfortaa-Regular'" font-size="11">l</tspan><tspan x="120.383" y="0" font-family="'Comfortaa-Regular'" font-size="11">ogin.</tspan></text>
 	</g>
 	<g clip-path="url(#SVGID_2_)">
 		<defs>
@@ -1854,10 +1859,10 @@
 		c0.132,0,0.243,0.051,0.335,0.153c0.092,0.104,0.138,0.235,0.138,0.396s-0.061,0.293-0.182,0.396
 		c-0.121,0.104-0.276,0.154-0.467,0.154H569.231z"/>
 	<g clip-path="url(#SVGID_2_)">
-		<text transform="matrix(1 0 0 1 381.6582 792.5405)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11">privi</tspan><tspan x="20.295" y="0" font-family="'Comfortaa-Regular'" font-size="11">l</tspan><tspan x="22.571" y="0" font-family="'Comfortaa-Regular'" font-size="11">e</tspan><tspan x="27.873" y="0" font-family="'Comfortaa-Regular'" font-size="11">ge </tspan><tspan x="41.865" y="0" font-family="'Comfortaa-Regular'" font-size="11">f</tspan><tspan x="44.868" y="0" font-family="'Comfortaa-Regular'" font-size="11">or </tspan><tspan x="56.836" y="0" font-family="'Comfortaa-Regular'" font-size="11">l</tspan><tspan x="59.112" y="0" font-family="'Comfortaa-Regular'" font-size="11">ogin app</tspan><tspan x="100.131" y="0" font-family="'Comfortaa-Regular'" font-size="11">r</tspan><tspan x="103.288" y="0" font-family="'Comfortaa-Regular'" font-size="11">o</tspan><tspan x="109.008" y="0" font-family="'Comfortaa-Regular'" font-size="11">v</tspan><tspan x="114.09" y="0" font-family="'Comfortaa-Regular'" font-size="11">al in </tspan></text>
+		<text transform="matrix(1 0 0 1 381.6582 792.5405)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11">privi</tspan><tspan x="25.256" y="0" font-family="'Comfortaa-Regular'" font-size="11">l</tspan><tspan x="28.038" y="0" font-family="'Comfortaa-Regular'" font-size="11">e</tspan><tspan x="34.583" y="0" font-family="'Comfortaa-Regular'" font-size="11">ge </tspan><tspan x="52.007" y="0" font-family="'Comfortaa-Regular'" font-size="11">f</tspan><tspan x="55.824" y="0" font-family="'Comfortaa-Regular'" font-size="11">or </tspan><tspan x="71.532" y="0" font-family="'Comfortaa-Regular'" font-size="11">l</tspan><tspan x="74.314" y="0" font-family="'Comfortaa-Regular'" font-size="11">ogin app</tspan><tspan x="126.058" y="0" font-family="'Comfortaa-Regular'" font-size="11">r</tspan><tspan x="130.655" y="0" font-family="'Comfortaa-Regular'" font-size="11">o</tspan><tspan x="137.783" y="0" font-family="'Comfortaa-Regular'" font-size="11">v</tspan><tspan x="143.657" y="0" font-family="'Comfortaa-Regular'" font-size="11">al in </tspan></text>
 	</g>
 	<g clip-path="url(#SVGID_2_)">
-		<text transform="matrix(1 0 0 1 381.6582 805.7407)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11">case of </tspan><tspan x="34.012" y="0" font-family="'Comfortaa-Regular'" font-size="11">f</tspan><tspan x="37.015" y="0" font-family="'Comfortaa-Regular'" font-size="11">o</tspan><tspan x="43.054" y="0" font-family="'Comfortaa-Regular'" font-size="11">r</tspan><tspan x="46.21" y="0" font-family="'Comfortaa-Regular'" font-size="11">gotten phone, out of </tspan></text>
+		<text transform="matrix(1 0 0 1 381.6582 805.7407)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11">case of </tspan><tspan x="44.604" y="0" font-family="'Comfortaa-Regular'" font-size="11">f</tspan><tspan x="48.422" y="0" font-family="'Comfortaa-Regular'" font-size="11">o</tspan><tspan x="55.868" y="0" font-family="'Comfortaa-Regular'" font-size="11">r</tspan><tspan x="60.466" y="0" font-family="'Comfortaa-Regular'" font-size="11">gotten phone, out of </tspan></text>
 	</g>
 	<g clip-path="url(#SVGID_2_)">
 		<text transform="matrix(1 0 0 1 381.6582 818.9399)" font-family="'Comfortaa-Regular'" font-size="11">battery etc.</text>
@@ -2015,13 +2020,13 @@
 			C325.043,234.972,320.757,239.258,315.47,239.258z"/>
 	</g>
 	<g clip-path="url(#SVGID_2_)">
-		<text transform="matrix(1 0 0 1 43.8643 183.1274)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11">S</tspan><tspan x="5.423" y="0" font-family="'Comfortaa-Regular'" font-size="11">e</tspan><tspan x="10.725" y="0" font-family="'Comfortaa-Regular'" font-size="11">am</tspan><tspan x="25.201" y="0" font-family="'Comfortaa-Regular'" font-size="11">l</tspan><tspan x="27.467" y="0" font-family="'Comfortaa-Regular'" font-size="11">ess pass</tspan><tspan x="64.294" y="0" font-family="'Comfortaa-Regular'" font-size="11">w</tspan><tspan x="72.181" y="0" font-family="'Comfortaa-Regular'" font-size="11">o</tspan><tspan x="78.22" y="0" font-family="'Comfortaa-Regular'" font-size="11">r</tspan><tspan x="81.377" y="0" font-family="'Comfortaa-Regular'" font-size="11">d</tspan><tspan x="87.581" y="0" font-family="'Comfortaa-Regular'" font-size="11">l</tspan><tspan x="89.858" y="0" font-family="'Comfortaa-Regular'" font-size="11">ess VPN and</tspan></text>
+		<text transform="matrix(1 0 0 1 43.8643 183.1274)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11">S</tspan><tspan x="7.282" y="0" font-family="'Comfortaa-Regular'" font-size="11">e</tspan><tspan x="13.827" y="0" font-family="'Comfortaa-Regular'" font-size="11">am</tspan><tspan x="31.69" y="0" font-family="'Comfortaa-Regular'" font-size="11">l</tspan><tspan x="34.462" y="0" font-family="'Comfortaa-Regular'" font-size="11">ess pass</tspan><tspan x="83.378" y="0" font-family="'Comfortaa-Regular'" font-size="11">w</tspan><tspan x="91.31" y="0" font-family="'Comfortaa-Regular'" font-size="11">o</tspan><tspan x="98.756" y="0" font-family="'Comfortaa-Regular'" font-size="11">r</tspan><tspan x="103.354" y="0" font-family="'Comfortaa-Regular'" font-size="11">d</tspan><tspan x="111.131" y="0" font-family="'Comfortaa-Regular'" font-size="11">l</tspan><tspan x="113.914" y="0" font-family="'Comfortaa-Regular'" font-size="11">ess VPN and</tspan></text>
 	</g>
 	<g clip-path="url(#SVGID_2_)">
-		<text transform="matrix(1 0 0 1 43.8643 196.3276)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11">WiFi </tspan><tspan x="22.143" y="0" font-family="'Comfortaa-Regular'" font-size="11">l</tspan><tspan x="24.419" y="0" font-family="'Comfortaa-Regular'" font-size="11">ogins.</tspan></text>
+		<text transform="matrix(1 0 0 1 43.8643 196.3276)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11">WiFi </tspan><tspan x="26.773" y="0" font-family="'Comfortaa-Regular'" font-size="11">l</tspan><tspan x="29.557" y="0" font-family="'Comfortaa-Regular'" font-size="11">ogins.</tspan></text>
 	</g>
 	<g clip-path="url(#SVGID_2_)">
-		<text transform="matrix(1 0 0 1 43.8643 222.7275)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11">Int</tspan><tspan x="12.375" y="0" font-family="'Comfortaa-Regular'" font-size="11">e</tspan><tspan x="17.666" y="0" font-family="'Comfortaa-Regular'" font-size="11">g</tspan><tspan x="23.814" y="0" font-family="'Comfortaa-Regular'" font-size="11">r</tspan><tspan x="26.982" y="0" font-family="'Comfortaa-Regular'" font-size="11">ation with Cisco An</tspan><tspan x="115.168" y="0" font-family="'Comfortaa-Regular'" font-size="11">y</tspan><tspan x="120.25" y="0" font-family="'Comfortaa-Regular'" font-size="11">C</tspan><tspan x="126.201" y="0" font-family="'Comfortaa-Regular'" font-size="11">onn</tspan><tspan x="144.45" y="0" font-family="'Comfortaa-Regular'" font-size="11">e</tspan><tspan x="149.741" y="0" font-family="'Comfortaa-Regular'" font-size="11">ct.</tspan></text>
+		<text transform="matrix(1 0 0 1 43.8643 222.7275)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11">Int</tspan><tspan x="14.927" y="0" font-family="'Comfortaa-Regular'" font-size="11">e</tspan><tspan x="21.461" y="0" font-family="'Comfortaa-Regular'" font-size="11">g</tspan><tspan x="28.908" y="0" font-family="'Comfortaa-Regular'" font-size="11">r</tspan><tspan x="33.517" y="0" font-family="'Comfortaa-Regular'" font-size="11">ation with Cisco An</tspan><tspan x="143.085" y="0" font-family="'Comfortaa-Regular'" font-size="11">y</tspan><tspan x="149.014" y="0" font-family="'Comfortaa-Regular'" font-size="11">C</tspan><tspan x="157.066" y="0" font-family="'Comfortaa-Regular'" font-size="11">onn</tspan><tspan x="179.407" y="0" font-family="'Comfortaa-Regular'" font-size="11">e</tspan><tspan x="185.941" y="0" font-family="'Comfortaa-Regular'" font-size="11">ct.</tspan></text>
 	</g>
 	<g clip-path="url(#SVGID_2_)">
 		<defs>
@@ -2122,13 +2127,13 @@
 			C78.98,699.697,74.694,703.984,69.406,703.984z"/>
 	</g>
 	<g clip-path="url(#SVGID_2_)">
-		<text transform="matrix(1 0 0 1 38.1162 669.2651)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11" letter-spacing="-1">Y</tspan><tspan x="4.851" y="0" font-family="'Comfortaa-Regular'" font-size="11">our </tspan></text>
+		<text transform="matrix(1 0 0 1 38.1162 669.2651)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11" letter-spacing="-1">Y</tspan><tspan x="6.028" y="0" font-family="'Comfortaa-Regular'" font-size="11">our </tspan></text>
 	</g>
 	<g clip-path="url(#SVGID_2_)">
-		<text transform="matrix(1 0 0 1 38.1162 682.4653)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11">l</tspan><tspan x="2.277" y="0" font-family="'Comfortaa-Regular'" font-size="11">ogo </tspan></text>
+		<text transform="matrix(1 0 0 1 38.1162 682.4653)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11">l</tspan><tspan x="2.783" y="0" font-family="'Comfortaa-Regular'" font-size="11">ogo </tspan></text>
 	</g>
 	<g clip-path="url(#SVGID_2_)">
-		<text transform="matrix(1 0 0 1 38.1162 695.6655)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11">he</tspan><tspan x="11.616" y="0" font-family="'Comfortaa-Regular'" font-size="11">r</tspan><tspan x="14.784" y="0" font-family="'Comfortaa-Regular'" font-size="11">e</tspan></text>
+		<text transform="matrix(1 0 0 1 38.1162 695.6655)"><tspan x="0" y="0" font-family="'Comfortaa-Regular'" font-size="11">he</tspan><tspan x="14.201" y="0" font-family="'Comfortaa-Regular'" font-size="11">r</tspan><tspan x="18.81" y="0" font-family="'Comfortaa-Regular'" font-size="11">e</tspan></text>
 	</g>
 </g>
 </svg>
