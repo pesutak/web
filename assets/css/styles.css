@@ -4,7 +4,8 @@
 
 body {
 	background: #fff;
-	font-family: 'Comfortaa', cursive;
+	font-family: "Comfortaa", cursive;
+	margin: 0;
 }
 
 .narrow-width {
@@ -17,6 +18,11 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	border-bottom: 1px solid #3c92a0;
+	position: sticky;
+	top: 0;
+	background: #fff;
+	height: 38px;
 }
 
 .navbar .nav {
@@ -33,7 +39,48 @@ body {
 	margin: 0 auto;
 	display: block;
 	width: inherit;
-	margin-bottom: 10px;
+}
+
+.bg {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	z-index: -2;
+}
+.bg.home1 {
+	background-color: #c8ddde;
+	top: 38px;
+	height: 510px;
+}
+.bg.home2 {
+	background-color: #cfbe8b;
+	top: 548px;
+	height: 505px;
+}
+.bg.home3 {
+	background-color: #000;
+	top: 1053px;
+	height: 47px;
+}
+.bg.home4 {
+	background-color: #3a3a33;
+	top: 1100px;
+	height: 211px;
+}
+.bg.password1 {
+	background-color: #cfbe8b;
+	top: 1311px;
+	height: 1273px;
+	z-index: -6;
+}
+.bg.password2 {
+	background-color: #c8ddde;
+	top: 990px;
+	height: 839px;
+	transform: rotate(-27.2deg);
+	z-index: -5;
+	left: -300px;
+	width: 2000px;
 }
 
 /* contact section */
@@ -49,7 +96,7 @@ body {
 	padding: 50px;
 }
 .contact-overlay .title {
-	background-color: #FDC689;
+	background-color: #fdc689;
 	padding: 10px;
 	border-radius: 7px;
 	text-align: center;
@@ -72,7 +119,7 @@ body {
 /* form */
 .contact-form {
 	margin-left: -120px;
-	color: #FDC689
+	color: #fdc689;
 }
 .contact-form table {
 	width: 500px;
@@ -88,8 +135,8 @@ body {
 .contact-form .input {
 	width: 100%;
 	line-height: 30px;
-	background: rgba(255,255,255,0.8);
-    border: none;
+	background: rgba(255, 255, 255, 0.8);
+	border: none;
 }
 .contact-form button {
 	background: #fdc689;
