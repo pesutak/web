@@ -3,7 +3,7 @@
 }
 
 body {
-	background: #eee;
+	background: #f0f0f0;
 	font-family: "Comfortaa", cursive;
 	margin: 0;
 }
@@ -12,18 +12,24 @@ body {
 	max-width: 900px;
 	width: 100%;
 	margin: 0 auto;
-	box-shadow: 0 3px 3px -2px rgb(0 0 0 / 20%), 0 3px 4px 0 rgb(0 0 0 / 14%), 0 1px 8px 0 rgb(0 0 0 / 12%);
 }
 
 .navbar {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	border-bottom: 1px solid #3c92a0;
-	position: sticky;
+	box-shadow: 0px 0 0 rgba(0, 0, 0, 0.64);
 	top: 0;
-	background: #fff;
-	height: 38px;
+	position: sticky;
+	background: rgba(255, 255, 255, 0);
+	height: 64px;
+	align-items: center;
+	backdrop-filter: saturate(180%) blur(20px);
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+}
+.navbar.box-shadow {
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: 0px 0 4px rgba(0, 0, 0, 0.64);
 }
 
 .navbar .nav {
@@ -40,6 +46,9 @@ body {
 	margin: 0 auto;
 	display: block;
 	width: inherit;
+	box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+	margin-bottom: 16px;
+	width: 900px;
 }
 
 .bg {
