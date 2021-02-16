@@ -138,6 +138,10 @@ h6 {
 }
 
 #header .logo {
+	background: url('../img/excalibur-logo.png') no-repeat;
+	background-size: 70px;
+	width: 70px;
+	height: 70px;
 	font-size: 32px;
 	margin: 0;
 	padding: 0;
