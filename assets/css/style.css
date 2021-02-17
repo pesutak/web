@@ -589,6 +589,11 @@ section {
 .about .count-box {
 	padding: 60px 0;
 	width: 100%;
+	clear: both;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
 }
 
 .about .count-box i {
@@ -609,11 +614,10 @@ section {
 }
 
 .about .count-box p {
-	padding: 5px 0 0 0;
-	margin: 0 0 0 60px;
+	padding: 0;
+	margin: 0;
 	font-family: "Raleway", sans-serif;
 	font-weight: 600;
-	font-size: 14px;
 	color: #2e4b5e;
 }
 
