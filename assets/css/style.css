@@ -464,8 +464,11 @@ h6 {
 
 #hero h2 {
 	color: #eee;
-	margin-bottom: 50px;
 	font-size: 24px;
+}
+#hero h6 {
+	color: #eee;
+	margin-bottom: 50px;
 }
 
 #hero .btn-get-started {
