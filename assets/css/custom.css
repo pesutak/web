@@ -1,7 +1,19 @@
-.svg.password {
-	height: 400px;
+/* .svg.password {
+	position: relative;
+	height: 65%;
 }
 .svg.password img {
 	position: relative;
-	top: -190px;
+	top: -215px;
+} */
+/* 
+@media (min-width: 768px) and (max-width: 992px) {
+	.svg.password {
+		height: 620px;
+	}
 }
+@media (max-width: 768px) {
+	.svg.password img {
+		top: -190px;
+	}
+} */
