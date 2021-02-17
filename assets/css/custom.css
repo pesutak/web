@@ -1,19 +1,24 @@
-/* .svg.password {
-	position: relative;
-	height: 65%;
+.services .icon-box.tatra img {
+	margin-top: -20px;
 }
-.svg.password img {
-	position: relative;
-	top: -215px;
-} */
-/* 
-@media (min-width: 768px) and (max-width: 992px) {
-	.svg.password {
-		height: 620px;
+.services .icon-box.soitron img {
+	margin-left: -10px;
+}
+
+@media (max-width: 992px) {
+	.services .icon-box {
+		text-align: center;
+	}
+
+	.services .icon-box img {
+		float: none;
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+	.services .icon-box.tatra img {
+		margin-bottom: 5px;
+	}
+	.services .icon-box.icon-box.soitron img {
+		margin-bottom: 10px;
 	}
 }
-@media (max-width: 768px) {
-	.svg.password img {
-		top: -190px;
-	}
-} */
