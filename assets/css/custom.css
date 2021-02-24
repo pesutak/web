@@ -5,7 +5,10 @@
 	margin-left: -10px;
 }
 .read-more-block-card-body {
-	padding-bottom: 50px;
+	/* padding-bottom: 50px; */
+}
+.read-more-block-card-body .read-more-block {
+	display: none;
 }
 .read-more-block {
 	font-weight: 600;
