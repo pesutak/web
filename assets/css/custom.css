@@ -4,6 +4,17 @@
 .services .icon-box.soitron img {
 	margin-left: -10px;
 }
+.read-more-block-card-body {
+	padding-bottom: 50px;
+}
+.read-more-block {
+	font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
 
 @media (max-width: 992px) {
 	.services .icon-box {
