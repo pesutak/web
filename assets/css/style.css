@@ -588,7 +588,8 @@ section {
 --------------------------------------------------------------*/
 .about .container {
 	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-	padding-bottom: 15px;
+	padding: 50px;
+	padding-bottom: 0;
 }
 
 .about .count-box {
@@ -638,10 +639,6 @@ section {
 
 .about .count-box a:hover {
 	color: #477392;
-}
-
-.about .content-wrapper {
-	padding: 0 30px 20px;
 }
 
 .about .content {
