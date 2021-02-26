@@ -136,35 +136,30 @@ a:hover {
 	background: rgba(21, 34, 43, 0.85);
 	padding: 10px 0;
 }
-#header.header-scrolled .logo-title {
+#header.header-scrolled .logo {
 	opacity: 1;
 }
 
+#header .logo,
+#hero .logo {
+	background: url("../img/excalibur-logo.png") no-repeat;
+	color: #fff;
+}
+#hero .logo {
+	text-indent: 110px;
+    background-size: 100px;
+    line-height: 100px;
+}
 #header .logo {
 	background: url("../img/excalibur-logo.png") no-repeat;
-	background-size: 70px;
-	width: 70px;
-	height: 70px;
+	background-size: 50px;
 	font-size: 32px;
-	margin: 0;
-	padding: 0;
-	line-height: 1;
-	font-weight: 700;
-	letter-spacing: 2px;
-}
+	line-height: 50px;
+	text-indent: 60px;
 
-#header .logo a {
-	color: #fff;
-}
-
-#header .logo img {
-	max-height: 40px;
-}
-
-#header .logo-title {
 	opacity: 0;
 	transition: opacity 1s linear;
-	color: #fff;
+	color: #eee;
 	margin-left: 10px;
 }
 
