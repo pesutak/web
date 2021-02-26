@@ -45,7 +45,9 @@
    */
   let navbarlinks = {
 	  '#navHero': '#hero',
-	  '#navFeatures': '#features, #features-standard',
+	  '#navStatusQuo': '#statusQuo',
+	  '#navSolution': '#solution',
+	  '#navFeatures': '#features',
 	  '#navAbout': '#about, #about-boxes',
 	  '#navReferences': '#references',
 	  '#navContact': '#contact'
