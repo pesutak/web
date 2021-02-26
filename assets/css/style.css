@@ -831,18 +831,18 @@ section {
 	color: #15222b;
 }
 
-.about-boxes .card-title a:hover {
+/* .about-boxes .card-title a:hover {
 	color: #3c92a1;
-}
+} */
 
 .about-boxes .card-text {
 	color: #5e5e5e;
 }
 
-.about-boxes .card:hover .card-icon i {
+/* .about-boxes .card:hover .card-icon i {
 	background: #fff;
 	color: #3c92a1;
-}
+} */
 
 @media (max-width: 1024px) {
 	.about-boxes {
