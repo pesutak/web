@@ -17,6 +17,17 @@
 	text-align: justify;
 }
 
+.core-features img {
+	cursor: pointer;
+}
+.core-features img:hover {
+	opacity: 80%;
+}
+.gslide-image {
+	background: #fff;
+	padding: 50px;
+}
+
 @media (max-width: 992px) {
 	.services .icon-box {
 		text-align: center;
