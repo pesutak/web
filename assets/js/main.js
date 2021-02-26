@@ -43,22 +43,38 @@
   /**
    * Navbar links active state on scroll
    */
-  let navbarlinks = select('#navbar .scrollto', true)
-  const navbarlinksActive = () => {
-    let position = window.scrollY + 200
-    navbarlinks.forEach(navbarlink => {
-      if (!navbarlink.hash) return
-      let section = select(navbarlink.hash)
-      if (!section) return
-      if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
-        navbarlink.classList.add('active')
-      } else {
-        navbarlink.classList.remove('active')
-      }
-    })
+  let navbarlinks = {
+	  '#navHero': '#hero',
+	  '#navFeatures': '#features, #features-standard',
+	  '#navAbout': '#about, #about-boxes',
+	  '#navReferences': '#references',
+	  '#navContact': '#contact'
   }
-  window.addEventListener('load', navbarlinksActive)
-  onscroll(document, navbarlinksActive)
+	// let navbarlinks = select( '#navbar .scrollto', true )
+	const navbarlinksActive = () =>
+	{
+		let position = window.scrollY + 200
+		Object.entries( navbarlinks ).forEach( ( [ navbarID, sectionIDs ] ) =>
+		{
+			let sections = select( sectionIDs, true )
+			let navbar = select( navbarID )
+			if ( sections.length === 0 || !navbar ) return
+
+			let add = !sections.find( section =>
+				position >= section.offsetTop && position <= ( section.offsetTop + section.offsetHeight )
+			) === false;
+
+			if ( add )
+			{
+				navbar.classList.add( 'active' )
+			} else
+			{
+				navbar.classList.remove( 'active' )
+			}
+		} )
+	}
+	window.addEventListener( 'load', navbarlinksActive )
+	onscroll( document, navbarlinksActive )
 
   /**
    * Scrolls to an element with header offset
