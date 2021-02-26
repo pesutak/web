@@ -464,10 +464,10 @@ a:hover {
 }
 
 #hero h1 {
-	margin: 0 0 20px 0;
-	font-size: 58px;
+	margin: 0 0 50px 0;
+	font-size: 70px;
+	font-weight: 300;
 	line-height: 56px;
-	text-transform: uppercase;
 	color: #fff;
 }
 
@@ -477,7 +477,7 @@ a:hover {
 }
 #hero h6 {
 	color: #eee;
-	margin: 0 50px 50px;
+	margin-bottom: 50px;
 }
 
 #hero .btn-get-started {
