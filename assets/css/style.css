@@ -15,7 +15,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Work Sans", sans-serif;
+	/* font-family: 'Montserrat', sans-serif; */
 }
 
 a {
@@ -1372,6 +1373,7 @@ section {
 	padding: 8px;
 }
 
+.contact .php-email-form h3,
 .contact .info-box h3 {
 	font-size: 20px;
 	color: #777777;
