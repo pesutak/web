@@ -14,7 +14,12 @@ body {
 	font-weight: 300;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: "Work Sans", sans-serif;
 	/* font-family: 'Montserrat', sans-serif; */
 }
@@ -131,9 +136,12 @@ a:hover {
 	background: rgba(21, 34, 43, 0.85);
 	padding: 10px 0;
 }
+#header.header-scrolled .logo-title {
+	opacity: 1;
+}
 
 #header .logo {
-	background: url('../img/excalibur-logo.png') no-repeat;
+	background: url("../img/excalibur-logo.png") no-repeat;
 	background-size: 70px;
 	width: 70px;
 	height: 70px;
@@ -154,6 +162,8 @@ a:hover {
 }
 
 #header .logo-title {
+	opacity: 0;
+	transition: opacity 1s linear;
 	color: #fff;
 	margin-left: 10px;
 }
