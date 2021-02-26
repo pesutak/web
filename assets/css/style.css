@@ -9,10 +9,15 @@
 # General
 --------------------------------------------------------------*/
 body {
-	/* font-family: "Open Sans", sans-serif; */
-	font-family: "Comfortaa", sans-serif;
+	font-family: "Work Sans", sans-serif;
 	color: #444444;
+	font-weight: 300;
 }
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+   }
 
 a {
 	color: #3c92a1;
@@ -22,16 +27,6 @@ a {
 a:hover {
 	color: #ff724a;
 	text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	/* font-family: "Raleway", sans-serif; */
-	font-family: "Comfortaa", sans-serif;
 }
 
 /*--------------------------------------------------------------
