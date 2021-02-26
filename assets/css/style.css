@@ -630,6 +630,10 @@ section {
 	color: #477392;
 }
 
+.about .content-wrapper {
+	padding: 0 30px 20px;
+}
+
 .about .content {
 	font-size: 15px;
 }
