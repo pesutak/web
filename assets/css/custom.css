@@ -4,12 +4,6 @@
 .services .icon-box.soitron img {
 	margin-left: -10px;
 }
-.read-more-block-card-body {
-	/* padding-bottom: 50px; */
-}
-.read-more-block-card-body .read-more-block {
-	display: none;
-}
 .read-more-block {
 	font-weight: 600;
     text-transform: uppercase;
@@ -17,6 +11,10 @@
     position: absolute;
     bottom: 0;
     right: 20px;
+}
+
+.text-justify {
+	text-align: justify;
 }
 
 @media (max-width: 992px) {

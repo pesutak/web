@@ -819,6 +819,7 @@ section {
 
 .about-boxes .card-body {
 	padding-top: 12px;
+	text-align: justify;
 }
 
 .about-boxes .card-title {
