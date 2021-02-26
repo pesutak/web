@@ -952,23 +952,30 @@ section {
 	font-size: 26px;
 }
 
-.features .tab-pane ul {
+.features .tab-pane p:last-child {
+	margin-bottom: 0;
+}
+
+.check-list {
 	list-style: none;
 	padding: 0;
 }
 
-.features .tab-pane ul li {
+.check-list li {
 	padding-bottom: 10px;
+	display: flex;
+	align-items: center;
 }
 
-.features .tab-pane ul i {
+.check-list i {
 	font-size: 20px;
 	padding-right: 4px;
+}
+.check-list i.ri-check-double-line {
 	color: #3c92a1;
 }
-
-.features .tab-pane p:last-child {
-	margin-bottom: 0;
+.check-list i.ri-close-line {
+	color: #A14B3C;
 }
 
 /*--------------------------------------------------------------
