@@ -1375,6 +1375,11 @@ section {
 	text-align: center;
 	box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
 	padding: 20px 0 30px 0;
+	height: 100%;
+}
+
+.contact .info-box-padding {
+	margin-top: 10px;
 }
 
 .contact .info-box i {
