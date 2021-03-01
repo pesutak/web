@@ -1,3 +1,7 @@
+import dotenv from 'dotenv';
+
+dotenv.config();
+
 import path from 'path';
 import express, { Response as ExResponse, Request as ExRequest } from 'express';
 import bodyParser from 'body-parser';
@@ -15,17 +19,17 @@ import { Logger, LoggerConfigModel, printError } from '@excalibur-enterprise/liq
 
 import { ApiService } from './service/ApiService';
 import { ApiServiceConfig } from './models/ApiServiceConfig';
+import { Options } from './options';
 
-const CONFIG_PATH = '../config';
-
-declare const global;
+declare const global
+{
+	LOG: Logger;
+}
 declare const LOG: Logger;
 
 async function initLogger(): Promise<void>
 {
-	const configPath = path.join( __dirname, CONFIG_PATH, 'logger.config.json' );
-	// TODO validate scheme!
-	const config = await Config.readJson<LoggerConfigModel>( configPath );
+	const config = await Config.readJson<LoggerConfigModel>( Options.LOGGER_CONFIG_PATH );
 
 	const logger = new Logger( config );
 
@@ -96,8 +100,7 @@ async function main()
 {
 	try
 	{
-		const configPath = path.join( __dirname, CONFIG_PATH, 'api.config.json' );
-		const config = await Config.readJson<ApiServiceConfig>( configPath );
+		const config = await Config.readJson<ApiServiceConfig>( Options.API_CONFIG_PATH );
 
 		await initLogger();
 		await initService( config );
