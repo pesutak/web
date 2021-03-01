@@ -1,7 +1,7 @@
 import { WebSocketClient, ClusterOptions } from '@excalibur-enterprise/cluster';
 import { Logger } from '@excalibur-enterprise/liqd-logger';
 
-import { ApiServiceConfig } from '../type/ApiServiceConfig';
+import { ApiServiceConfig } from '../models/ApiServiceConfig';
 
 import { MailService } from '../service/MailService';
 

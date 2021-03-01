@@ -14,7 +14,7 @@ import { Config } from '@excalibur-enterprise/utils-js';
 import { Logger, LoggerConfigModel, printError } from '@excalibur-enterprise/liqd-logger';
 
 import { ApiService } from './service/ApiService';
-import { ApiServiceConfig } from './type/ApiServiceConfig';
+import { ApiServiceConfig } from './models/ApiServiceConfig';
 
 const CONFIG_PATH = '../config';
 
@@ -101,7 +101,8 @@ async function main()
 
 		await initLogger();
 		await initService( config );
-		await initServer( config.server.port || 3001 );
+
+		initServer( config.server.port || 3001 );
 	}
 	catch ( error )
 	{

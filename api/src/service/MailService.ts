@@ -1,6 +1,6 @@
 import { Logger } from '@excalibur-enterprise/liqd-logger';
-import { MailDto } from '../type/MailDto';
-import { ApiServiceConfig } from '../type/ApiServiceConfig';
+import { MailDto } from '../dtos/MailDto';
+import { ApiServiceConfig } from '../models/ApiServiceConfig';
 
 declare const LOG: Logger;
 
@@ -18,22 +18,21 @@ export class MailService
 		LOG.info( `Service '${this.constructor.name}' initialized` );
 	}
 
-
-	async sendMail( mail: MailDto ): Promise<{ status: boolean }>
+	async sendMail( data: MailDto ): Promise<void>
 	{
-		const result = await this.mailer.sendWebFormContent( this.options.webFormReceiver, mail.email, mail.message );
+		const result = await this.mailerService.sendWebFormContent(
+			this.options.webFormReceiver,
+			data.email,
+			data.message
+		);
 
 		if ( !result )
 		{
 			throw new Error( 'Sending email failed' );
 		}
-
-		return {
-			status: result
-		};
 	}
 
-	protected get mailer(): any
+	protected get mailerService(): any
 	{
 		return this.getService( this.options.service.mailer );
 	}
