@@ -100,7 +100,9 @@ async function main()
 {
 	try
 	{
-		const config = await Config.readJson<ApiServiceConfig>( Options.API_CONFIG_PATH );
+		const schemePath = path.join(__dirname, '../schemes/ApiServiceConfig.scheme.json');
+		const scheme = await Config.readJson( schemePath );
+		const config = await Config.readJson<ApiServiceConfig>( Options.API_CONFIG_PATH, scheme );
 
 		await initLogger();
 		await initService( config );
