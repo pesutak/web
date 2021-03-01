@@ -12,10 +12,10 @@ import { MailDto } from '../type/MailDto';
 
 @Route( 'api/mails' )
 @Tags( 'mail' )
-export class UserController extends ApiController
+export class MailController extends ApiController
 {
 	@Post()
-	public findAllAsCodelist( @Body() mail: MailDto ): Promise<{ status: boolean }>
+	public sendMail( @Body() mail: MailDto ): Promise<{ status: boolean }>
 	{
 		return this.trycatch( () => MailService.instance.sendMail( mail ) );
 	}
