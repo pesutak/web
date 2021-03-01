@@ -19,9 +19,18 @@ export class MailService
 	}
 
 
-	sendMail( mail: MailDto ): Promise<boolean>
+	async sendMail( mail: MailDto ): Promise<{ status: boolean }>
 	{
-		return this.mailer.sendWebFormContent( this.options.webFormReceiver, mail.email, mail.message );
+		const result = await this.mailer.sendWebFormContent( this.options.webFormReceiver, mail.email, mail.message );
+
+		if ( !result )
+		{
+			throw new Error( 'Sending email failed' );
+		}
+
+		return {
+			status: result
+		};
 	}
 
 	protected get mailer(): any

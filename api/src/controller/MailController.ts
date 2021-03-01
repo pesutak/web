@@ -14,8 +14,8 @@ import { MailDto } from '../type/MailDto';
 @Tags( 'mail' )
 export class UserController extends ApiController
 {
-	@Post( )
-	public findAllAsCodelist( @Body() mail: MailDto ): Promise<boolean>
+	@Post()
+	public findAllAsCodelist( @Body() mail: MailDto ): Promise<{ status: boolean }>
 	{
 		return this.trycatch( () => MailService.instance.sendMail( mail ) );
 	}

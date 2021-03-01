@@ -1,8 +1,3 @@
-function sendMail( e )
-{
-	console.log( e );
-}
-
 function DOM_awaitRequest( method, url, data, options = {} )
 {
 	return new Promise( ( resolve, reject ) =>
