@@ -21,10 +21,7 @@ export class MailService
 
 	sendMail( mail: MailDto ): Promise<boolean>
 	{
-		console.log( `sending mail`, mail );
-
-		return Promise.resolve( true );
-		// return this.mailer.sendMail( mail );
+		return this.mailer.sendWebFormContent( this.options.webFormReceiver, mail.email, mail.message );
 	}
 
 	protected get mailer(): any

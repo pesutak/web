@@ -1,1 +1,1 @@
-var MAIL_URL = 'http://localhost:3001/api/mails'
+var MAIL_URL = 'https://localhost/web-api/mails'
