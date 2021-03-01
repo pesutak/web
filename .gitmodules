@@ -1,3 +1,6 @@
 [submodule "services/mailer"]
 	path = services/mailer
 	url = git@github.com:excalibur-enterprise/excalibur-mailer.git
+[submodule "services/router"]
+	path = services/router
+	url = git@github.com:excalibur-enterprise/excalibur-cloud-router.git
