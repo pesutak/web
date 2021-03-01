@@ -1,0 +1,14 @@
+{
+	"entryFile": "src/main.ts",
+	"noImplicitAdditionalProperties": "throw-on-extras",
+	"controllerPathGlobs": [
+		"src/controller/MailController.ts"
+	],
+	"spec": {
+		"outputDirectory": "config",
+		"specVersion": 3
+	},
+	"routes": {
+		"routesDir": "src"
+	}
+}

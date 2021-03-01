@@ -1,0 +1,16 @@
+{
+	"router":"ws://excalibur-4-router-service:11300",
+	"name": "excalibur-35-web-api",
+	"verboseDebug": true,
+	"webFormReceiver": "xslavkov@gmail.com",
+
+	"server": {
+		"port": 3002,
+		"version": "1.0.0"
+	},
+
+	"service":
+	{
+		"mailer": "excalibur-35-mailer"
+	}
+}

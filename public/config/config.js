@@ -1,0 +1,1 @@
+var MAIL_URL = 'https://localhost/web-api/mails'

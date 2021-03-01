@@ -1,2 +1,14 @@
 *.ai
 *.svg
+
+*.log
+*.srl
+.npmrc
+node_modules/
+tmp/
+shared/
+var/
+
+dist/
+swagger.json
+routes.ts
