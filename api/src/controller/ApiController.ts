@@ -15,7 +15,6 @@ export abstract class ApiController extends Controller
 		catch ( error )
 		{
 			LOG.error( error );
-			console.log( error );
 
 			throw new ApiError( EApiError.UNEXPECTED_ERROR, [ error.message ] );
 		}
