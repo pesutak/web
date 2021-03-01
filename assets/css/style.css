@@ -897,10 +897,9 @@ section {
 
 .features .nav-link {
 	border: 1px solid #b5ccdb;
-	padding: 15px;
 	transition: 0.3s;
 	color: #15222b;
-	border-radius: 0;
+	border-radius: 10px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -908,7 +907,7 @@ section {
 
 .features .nav-link i {
 	padding-right: 15px;
-	font-size: 48px;
+	font-size: 38px;
 }
 
 .features .nav-link h4 {
